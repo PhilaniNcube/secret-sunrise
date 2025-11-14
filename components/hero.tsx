@@ -88,11 +88,12 @@ const Hero = () => {
           <div className="absolute flex flex-col items-center text-center px-5 lg:px-0">
             <Image
               ref={imageRef}
-              src="/images/dancing-lady-transparent.webp"
+              src="/images/banner.webp"
               alt="Description of the image"
-              width={500}
-              height={500}
-              className="rounded-lg translate-y-7"
+              width={1700}
+              height={1080}
+              className="rounded-lg scale-75 translate-y-11 "
+              priority={true}
             />
           </div>
         </div>
