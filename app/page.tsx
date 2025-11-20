@@ -11,7 +11,7 @@ import Testimonials from "@/components/testimonials";
 export default function Home() {
   return <main>
     <Hero />
-    <Conferences />
+    {/* <Conferences /> */}
     <TeamBuilding />
     <Session />
     <TeamWellness />

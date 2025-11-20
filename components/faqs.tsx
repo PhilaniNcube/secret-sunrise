@@ -7,7 +7,8 @@ const FAQS = () => {
     <section className="bg-slate-100 shadow-inner">
       <Container>
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center max-w-[300px]">
+            <h2 className="text-4xl font-extrabold mb-6">The Why?</h2>
             <p className="mb-4">
               <strong>We move to the rhythm of Africa,</strong> where every
               drumbeat, step, and smile carries Joy.

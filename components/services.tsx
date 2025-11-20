@@ -1,13 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import Container from "./container";
 
-const TeamWellness = () => {
+const Services = () => {
   return (
     <section className="bg-white">
-      <Container>
-        <h2 className="text-4xl font-bold py-12 text-black">Our Services</h2>
-      </Container>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
         <div className="px-28 col-span-1 lg:col-span-2 flex flex-col justify-center">
           <svg
@@ -25,12 +21,13 @@ const TeamWellness = () => {
 
           <h2 className="text-2xl font-bold my-3">Team Wellness Days</h2>
           <p className="mt-4 text-md font-light text-balance">
-        Mindful breaks for employees featuring movement.
+            Mindful breaks for employees featuring movement therapy, live
+            drumming, and laughter sessions.
           </p>
         </div>
         <div className="col-span-1 lg:col-span-3 h-full">
           <Image
-            src="/images/team_wellness.webp"
+            src="/images/wellness.webp"
             alt="Team Wellness"
             width={1200}
             height={800}
@@ -42,4 +39,4 @@ const TeamWellness = () => {
   );
 };
 
-export default TeamWellness;
+export default Services;

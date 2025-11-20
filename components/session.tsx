@@ -4,68 +4,80 @@ import Image from "next/image";
 
 const Session = () => {
   return (
-    <section className="bg-brand-accent">
+    <section className="bg-slate-200 py-10">
       <Container>
-        <Image
-          src="/images/jazz.webp"
-          alt="Jazz"
-          width={1200}
-          height={800}
-          className="aspect-video object-cover mx-auto py-11"
-        />
-        <h2 className="text-4xl text-white font-extrabold text-center mb-6 uppercase">
-          How Does A <br />
-          Session Go
+        <svg
+          width="122"
+          height="20"
+          viewBox="0 0 122 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6.76 19.2701L5.5 11.0801L1.02 3.90005L2.29 12.0901L6.76 19.2701ZM4.97 11.2201L5.82 16.7401L2.81 11.9501L1.96 6.43005L4.97 11.2201ZM13.1 9.30005L9.93 1.50005L9.75 9.84005L12.91 17.6401L13.1 9.30005ZM12.43 14.9801L10.3 9.74005L10.42 4.16005L12.55 9.40005L12.43 14.9801ZM20.89 8.91005L19.13 0.680054L17.51 8.86005L19.27 17.0901L20.89 8.91005ZM18.06 8.86005L19.15 3.39005L20.33 8.92005L19.24 14.3901L18.06 8.86005ZM28.61 9.94005L28.63 9.89005L28.32 1.48005L25.32 9.20005L25.3 9.25005L25.61 17.6601L28.61 9.94005ZM27.88 4.14005L28.09 9.79005L26.07 14.9901L25.86 9.34005L27.88 4.14005ZM37.25 3.85005L32.96 10.9401L31.77 19.3301L36.06 12.2401L37.25 3.85005ZM32.67 16.7701L33.45 11.1701L36.34 6.40005L35.56 12.0001L32.67 16.7701ZM61 16.6901C64.12 16.6901 66.67 14.1501 66.67 11.0201C66.67 7.90005 64.13 5.35005 61 5.35005C57.88 5.35005 55.33 7.89005 55.33 11.0201C55.33 14.1501 57.88 16.6901 61 16.6901ZM61 5.91005C63.82 5.91005 66.12 8.21005 66.12 11.0301C66.12 13.8501 63.82 16.1501 61 16.1501C58.18 16.1501 55.88 13.8501 55.88 11.0301C55.88 8.20005 58.18 5.91005 61 5.91005ZM90.5 19.2701L89.24 11.0801L84.75 3.90005L86.02 12.0901L90.5 19.2701ZM88.7 11.2201L89.55 16.7401L86.54 11.9501L85.7 6.43005L88.7 11.2201ZM96.83 9.30005L93.67 1.50005L93.49 9.84005L96.66 17.6401L96.83 9.30005ZM96.17 14.9801L94.04 9.74005L94.16 4.16005L96.29 9.40005L96.17 14.9801ZM104.63 8.91005L102.87 0.680054L101.25 8.86005L103.01 17.0901L104.63 8.91005ZM101.8 8.86005L102.89 3.39005L104.07 8.92005L102.98 14.3901L101.8 8.86005ZM112.35 9.94005L112.37 9.89005L112.06 1.48005L109.06 9.20005L109.04 9.25005L109.35 17.6601L112.35 9.94005ZM111.61 4.14005L111.82 9.79005L109.8 14.9901L109.59 9.34005L111.61 4.14005ZM120.98 3.85005L116.69 10.9401L115.5 19.3301L119.8 12.2401L120.98 3.85005ZM116.41 16.7701L117.19 11.1701L120.08 6.40005L119.3 12.0001L116.41 16.7701Z"
+            fill="#FFA700"
+          />
+        </svg>
+        <h2 className="text-4xl font-bold pb-12 text-black">
+          How does a session go
         </h2>
-      </Container>
-      <div className="translate-y-12">
-        <Container>
-          <div className="flex justify-between">
-            <div>
-              <Image
-                src="/images/door.png"
-                alt="Opening"
-                width={500}
-                height={500}
-                className="h-40 w-40 object-cover mx-auto"
-              />
-              <p className="mt-2 text-center">Opening</p>
+
+        <Image
+          src="/images/session.webp"
+          alt="Session"
+          width={1920}
+          height={919}
+          className="aspect-video object-cover mx-auto"
+        />
+        <div className="py-6">
+          <div className="flex justify-around items-center gap-5">
+            <div className="flex-1 flex flex-col items-center">
+              <div className="bg-brand-accent rounded-full w-20 h-20 flex items-center justify-center">
+                <span className="text-white font-mono font-bold text-2xl">
+                  1
+                </span>
+              </div>
+              <p className="text-center text-balance mt-2 text-black">
+                The opening is centred around breathing exercises and
+                mindfulness techniques
+              </p>
             </div>
-            <div>
-              <Image
-                src="/images/search.png"
-                alt="Search"
-                width={500}
-                height={500}
-                className="h-40 w-40 object-cover mx-auto -translate-y-4"
-              />
-              <p className="mt-2 text-center">Exploration</p>
+            <div className="flex-1 flex flex-col items-center">
+              <div className="bg-brand-accent rounded-full w-20 h-20 flex items-center justify-center">
+                <span className="text-white font-mono font-bold text-2xl">
+                  2
+                </span>
+              </div>
+              <p className="text-center text-balance mt-2 text-black">
+                The exploration introduces movement with a dynamic warm-up as
+                the beat picks up
+              </p>
             </div>
-            <div>
-              <Image
-                src="/images/mountain.png"
-                alt="Peak"
-                width={500}
-                height={500}
-                className="h-40 w-40 object-cover mx-auto"
-              />
-              <p className="mt-2 text-center">Peak</p>
+            <div className="flex-1 flex flex-col items-center">
+              <div className="bg-brand-accent rounded-full w-20 h-20 flex items-center justify-center">
+                <span className="text-white font-mono font-bold text-2xl">
+                  3
+                </span>
+              </div>
+              <p className="text-center text-balance mt-2 text-black">
+                The peak: high-beat music, interactive prompts, improvisation
+                and an explosion of energy!
+              </p>
             </div>
-            <div>
-              <Image
-                src="/images/antenna.png"
-                alt="Connection"
-                width={500}
-                height={500}
-                className="h-40 w-40 object-cover mx-auto"
-              />
-              <p className="mt-2 text-center">Connection</p>
+            <div className="flex-1 flex flex-col items-center">
+              <div className="bg-brand-accent rounded-full w-20 h-20 flex items-center justify-center">
+                <span className="text-white font-mono font-bold text-2xl">
+                  4
+                </span>
+              </div>
+              <p className="text-center text-balance mt-2 text-black">
+                The experience concludes with connection through group
+                engagement and reflection
+              </p>
             </div>
           </div>
-        </Container>
-      </div>
-
-      <div className="bg-white pb-24"></div>
+        </div>
+      </Container>
     </section>
   );
 };

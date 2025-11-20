@@ -3,14 +3,14 @@ import React from "react";
 
 const SchoolEvents = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white shadow-xl">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
         <div className="col-span-1 lg:col-span-3 h-full">
           <Image
-            src="/images/school.webp"
+            src="/images/school_events.jpg"
             alt="School Events"
-            width={1080}
-            height={1080}
+            width={1200}
+            height={800}
             className="w-full h-full max-h-[500px] object-cover"
           />
         </div>
@@ -30,8 +30,8 @@ const SchoolEvents = () => {
 
           <h2 className="text-2xl font-bold my-3">School Events</h2>
           <p className="mt-4 text-md font-light text-balance">
-            Joy-filled assemblies and workshops encouraging creativity, focus
-            and teamwork in students.
+            Joy-filled sessions and workshops encouraging creativity, focus and
+            teamwork in students.
           </p>
         </div>
       </div>
