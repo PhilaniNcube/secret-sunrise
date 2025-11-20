@@ -80,7 +80,7 @@ const Footer = async () => {
       
       </Container>
         {/* Copyright Section */}
-        <div className="mt-12 py-8 bg-blue-600 text-white uppercase text-center text-sm">
+        <div className="mt-12 py-8 bg-brand text-white uppercase text-center text-sm">
           <p>&copy; {new Date().getFullYear()} Secret Sunrise. All rights reserved.</p>
         </div>
     </footer>
