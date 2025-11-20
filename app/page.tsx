@@ -1,4 +1,4 @@
-import Conferences from "@/components/conferences";
+
 import FAQS from "@/components/faqs";
 import Hero from "@/components/hero";
 import SchoolEvents from "@/components/school-events";
