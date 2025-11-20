@@ -9,19 +9,19 @@ const FAQS = () => {
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="flex flex-col justify-center max-w-[300px]">
             <h2 className="text-4xl font-extrabold mb-6">The Why?</h2>
-            <p className="mb-4">
+            <p className="mb-4 text-lg">
               <strong>We move to the rhythm of Africa,</strong> where every
               drumbeat, step, and smile carries Joy.
             </p>
-            <p className=" mb-4">
+            <p className=" mb-4 text-lg">
               From bustling cities to quiet schoolyards, we bring movement,
               music, and mindfulness to every corner of the continent.
             </p>
-            <p className="font-bold">
+            <p className="font-bold text-lg">
               Joy is our bones, kets weave it through our team culture.
             </p>
           </div>
-          <div>
+          <div className="">
             <Image
               src="/images/sunrise.webp"
               alt="Sunrise"
